@@ -1,8 +1,9 @@
 //
 //  FileUtil.swift
-//  SwiftUnusedResourceChecking
+//  unusedResources
 //
-//  Created by TigerHu on 2025/9/9.
+//  Created by thierryH24 on 02/10/2018.
+//  Copyright © 2018 thierryH24. All rights reserved.
 //
 
 import Cocoa

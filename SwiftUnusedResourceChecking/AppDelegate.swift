@@ -12,9 +12,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet var window: NSWindow!
 
-
+    var mainWindowController: MainWindowController?
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        
+        mainWindowController = MainWindowController()
+        mainWindowController?.showWindow(self)
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
